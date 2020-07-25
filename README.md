@@ -75,6 +75,7 @@ Command: `node app.js <option number> <zip code>, <country code>`
 Command Example: `node app.js 4 94040, us`
 
 Default: You will get a default weather data for London, UK if no arguments are entered
+
 For example: `node app.js`
 
 10. Two HTML samples will be produced 'sample1.html' and 'sample2.html'
