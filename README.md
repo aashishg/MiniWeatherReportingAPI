@@ -103,18 +103,22 @@ Example of API calls:
  `api.openweathermap.org/data/2.5/weather?id={city id}&appid={your api key}`
 
 Example of API call: 
+ 
  `api.openweathermap.org/data/2.5/weather?id=2172797&appid=42eefeac48ad56baa90e8b70275648fb`
 
 ### Weather by geographic coordinates
  `api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}`
 
 Example of API call:
+ 
  `api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=42eefeac48ad56baa90e8b70275648fb`
 
 ### Weather by Zip code:
+
  `api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}`
 
  Example of API call:
+
  `api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=42eefeac48ad56baa90e8b70275648fb`
 
 
