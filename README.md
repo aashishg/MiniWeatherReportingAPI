@@ -39,24 +39,35 @@ Command: `node app.js <option number> <city name>, <state code>(optional), <coun
 Command Example: `node app.js 1 Mumbai, mh, in`
 
 Option 2: Weather by City ID
+
 Argument 2: city ID
+
 Example of argument 2: 2172797
+
 Command: `node app.js <option number> <city id>`
 
 Command Example: `node app.js 2 2172797`
 
 Option 3: Weather by geographic coordinates
+
 Argument 2: latitude
+
 Argument 3: longitude
+
 Example of argument 2: 35
+
 Example of argument 3: 139  
+
 Command: `node app.js <option number> <lat> <lon>`
 
 Command Example: `node app.js 3 35 139`
 
 Option 4: Weather by zip code
+
 Argument 2: zip code, country code
+
 Example 1 of argument 2: 94040
+
 Example 2 of argument 2: us
 
 Command: `node app.js <option number> <zip code>, <country code>`
@@ -64,6 +75,7 @@ Command: `node app.js <option number> <zip code>, <country code>`
 Command Example: `node app.js 4 94040, us`
 
 Default: You will get a default weather data for London, UK if no arguments are entered
+
 For example: `node app.js`
 
 10. Two HTML samples will be produced 'sample1.html' and 'sample2.html'
