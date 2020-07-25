@@ -119,11 +119,7 @@ Example of API call:
  `api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}`
 
  Example of API call:
-<<<<<<< HEAD
  
-=======
-
->>>>>>> master
  `api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=42eefeac48ad56baa90e8b70275648fb`
 
 
