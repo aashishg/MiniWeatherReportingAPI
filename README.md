@@ -25,9 +25,13 @@ Argument 1: Choices: 1,2 and 3
 Is the option to choose from that is: 
 
 Option 1: Weather by city 
+
 Argument 2: city name,state code(optional), country code(optional) 
+
 Example 1 of argument 2: Mumbai
+
 Example 2 of argument 2: Mumbai, mh
+
 Example 3 of argument 2: Mumbai, mh,in
 
 Command: `node app.js <option number> <city name>, <state code>(optional), <country code>(optional)` 
