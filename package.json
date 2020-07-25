@@ -1,0 +1,34 @@
+{
+  "name": "miniweatherreportingapi",
+  "version": "1.0.0",
+  "description": "This package contains code for fetching JSON of weather of a certain city from openweathermap.com API using Axios NPM package, converting JSON from openweathermap to HTML template using handlebars NPM packages and finally saving the converted HTML to the local machine using FS NPM package",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashishg/MiniWeatherReportingAPI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "axios",
+    "fs",
+    "handlebars",
+    "weather",
+    "api"
+  ],
+  "author": "Aashish Gangwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashishg/MiniWeatherReportingAPI/issues"
+  },
+  "homepage": "https://github.com/aashishg/MiniWeatherReportingAPI#readme"
+}

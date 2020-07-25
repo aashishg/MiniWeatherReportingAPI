@@ -1,0 +1,36 @@
+  <link rel="stylesheet" href="sample2.css">
+
+
+<div>
+    <font face="verdana, sans-serif">
+    <span class="city-span">
+        <a href="https://openweathermap.org/city/{{this.id}}"  target="_blank" class="city-country-anchor">
+        {{this.name}}, {{this.sys.country}}
+        </a>
+    </span>
+    <span>
+        &nbsp;
+    </span>
+    <img  src="flags/{{this.sys.country}}.png" class="city-image">
+    <span class="desc-span">
+        <i style="box-sizing:border-box">
+            &nbsp;{{this.weather.0.description}}
+        </i>
+    </span>
+</font>
+<p class="temp-p">
+    <font face="verdana, sans-serif">
+        <span class="humid-span">
+            {{this.main.humidity}}°С
+        </span>
+        &nbsp;temperature from {{this.main.temp_min}} to {{this.main.temp_max}} °С, wind {{this.wind.speed}} m/s. clouds {{this.clouds.all}} %, {{this.main.pressure}} hPa
+    </font>
+</p>
+<p class="coord-p">
+    <font face="verdana, sans-serif">
+        Geo coords&nbsp;<a href="https://openweathermap.org/weathermap?zoom=12&amp;lat={{this.coord.lat}}&amp;lon={{this.coord.lon}}" style="color:rgb(233,110,80);box-sizing:border-box;background:0px 0px;text-decoration-line:none" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://openweathermap.org/weathermap?zoom%3D12%26lat%3D{{this.coord.lat}}%26lon%3D{{this.coord.lon}}&amp;source=gmail&amp;ust=1580741694441000&amp;usg=AFQjCNGGvCIuaDHV1OFhCwbO1UEcU4UEjw">
+            [{{this.coord.lat}}, {{this.coord.lon}}]
+        </a>
+    </font>
+</p>
+</div>

@@ -1,0 +1,56 @@
+
+.city-span{
+box-sizing:border-box;
+font-weight:700;color:rgb(80,80,80);
+font-size:14px;
+}
+.desc-span{
+
+    box-sizing:border-box;
+    font-weight:700;
+    color:rgb(80,80,80);
+    font-size:14px;
+}
+.city-image{
+    box-sizing:border-box;
+    border:0px;
+    vertical-align:middle;
+    color:rgb(80,80,80);
+    font-size:14px;
+}
+
+
+
+.city-country-anchor{
+color:rgb(233,110,80);
+box-sizing:border-box;
+background:0px 0px;
+text-decoration-line:none;
+}
+
+.temp-p{
+    box-sizing:border-box;
+    margin:0px 0px 10px;
+    color:rgb(80,80,80);
+    font-size:14px
+}
+humid-span{
+box-sizing:border-box;
+display:inline-block;
+min-width:10px;padding:3px 7px;
+font-size:12px;font-weight:700;
+color:rgb(255,255,255);
+line-height:1;
+vertical-align:baseline;
+white-space:nowrap;
+text-align:center;
+background-color:rgb(78,77,74);
+border-radius:10px;
+}
+
+coord-p{
+    box-sizing:border-box;
+    margin:0px 0px 10px;
+    color:rgb(80,80,80);
+    font-size:14px;
+}
