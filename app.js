@@ -18,11 +18,17 @@ const Path = require('path');
 // with the downloaded JSON in the local filesystem
 
 async function downloadJSON () {  
-const appid="42eefeac48ad56baa90e8b70275648fb";
 
-  // URL from the task which is given in mail
+// Openweathermap.com API key
+  const appid = "42eefeac48ad56baa90e8b70275648fb";
+
+  // Taking the arguments passed by user in myArgs variable. As first two arguments are system arguments
+  // we take the 3rd argument which has all the user arguments
   var myArgs = process.argv.slice(2);
-
+  // URL from the task which is given in mail
+  // Switch to API URL structure as user chooses between options 1 to 4
+  // The default URL structure is Weather by City Name and the default city is London. 
+  // Default URL structure is chosen if no arguments is passed
   switch (myArgs[0]) {
     case '1':
       var url = 'https://api.openweathermap.org/data/2.5/weather?q='+myArgs[1]+'&appid='+appid;
