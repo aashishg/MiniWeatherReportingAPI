@@ -22,7 +22,7 @@ This repository contains This package contains code for fetching JSON of weather
 
 9. Head on to openweathermap.com, signup, verify your email and head on to home.openweathermap.com under API keys to get your default API key or make an API key, you can make unlimited API keys even under free account. Please wait for upto 4 hours to get your API key activated.
 
-10. Add API key on line 23 for `const appid=<your-openweathermap-api-key>` replacing '<your-openweathermap-api-key>' for example `const appid = "57abh...."` don't forget to add double quotes "" around your API key
+10. Add API key on line 23 for `const appid=<your-openweathermap-api-key>` replacing `<your-openweathermap-api-key>` for example `const appid = "57abh...."` don't forget to add double quotes "" around your API key
 
 11. Run `node app.js <argument 1> <argument 2> <argument 3>` 
 Argument 1: Choices: 1,2 and 3
