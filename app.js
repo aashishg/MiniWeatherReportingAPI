@@ -20,7 +20,7 @@ const Path = require('path');
 async function downloadJSON () {  
 
 // Openweathermap.com API key
-  const appid = <your-openweathermap-api-key>;
+  const appid = "<your-openweathermap-api-key>";
 
   /* Taking the arguments passed by user in myArgs variable. As first two arguments are system arguments
    we take the 3rd argument which has all the user arguments*/

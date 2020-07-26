@@ -20,7 +20,11 @@ This repository contains This package contains code for fetching JSON of weather
 
 8. Please make sure you have an active internet connection before proceeding since we need to make a call to openweathermap.com API and it requires an active internet connection
 
-9. Run `node app.js <argument 1> <argument 2> <argument 3>` 
+9. Head on to openweathermap.com, signup, verify your email and head on to home.openweathermap.com under API keys to get your default API key or make an API key, you can make unlimited API keys even under free account. Please wait for upto 4 hours to get your API key activated.
+
+10. Add API key on line 23 for `const appid=<your-openweathermap-api-key>` replacing '<your-openweathermap-api-key> for example `const appid = "57abh...."` don't forget to add double quotes "" around your API key
+
+11. Run `node app.js <argument 1> <argument 2> <argument 3>` 
 Argument 1: Choices: 1,2 and 3
 Is the option to choose from that is: 
 
@@ -78,11 +82,11 @@ Default: You will get a default weather data for London, UK if no arguments are 
 
 For example: `node app.js`
 
-10. Two HTML samples will be produced 'sample1.html' and 'sample2.html'
+12. Two HTML samples will be produced 'sample1.html' and 'sample2.html'
 
-11. Please try running both sample HTMLs in your default browser to see the output of the application
+13. Please try running both sample HTMLs in your default browser to see the output of the application
 
-12. This app is tested for latest nodejs, axios, fs and handlebars packages and If you are still experiencing any error during installation of nodejs or running the application please email me at "aashishgangwani@gmail.com" I will try to resolve the error as soon as possible.
+14. This app is tested for latest nodejs, axios, fs and handlebars packages and If you are still experiencing any error during installation of nodejs or running the application please email me at "aashishgangwani@gmail.com" I will try to resolve the error as soon as possible.
 
 
 ## URL structure for API
