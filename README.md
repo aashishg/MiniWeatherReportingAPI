@@ -95,9 +95,9 @@ For example: `node app.js`
 3. `api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={your api key}`
 
 Example of API calls:
-1. `api.openweathermap.org/data/2.5/weather?q=London&appid=42eefeac48ad56baa90e8b70275648fb`
+1. `api.openweathermap.org/data/2.5/weather?q=London&appid=<your-openweathermap-api-key>`
 
-2. `api.openweathermap.org/data/2.5/weather?q=London,uk&appid=42eefeac48ad56baa90e8b70275648fb`
+2. `api.openweathermap.org/data/2.5/weather?q=London,uk&appid=<your-openweathermap-api-key>`
 
 ### Weather by City ID
  
@@ -105,14 +105,14 @@ Example of API calls:
 
 Example of API call: 
  
- `api.openweathermap.org/data/2.5/weather?id=2172797&appid=42eefeac48ad56baa90e8b70275648fb`
+ `api.openweathermap.org/data/2.5/weather?id=2172797&appid=<your-openweathermap-api-key>`
 
 ### Weather by geographic coordinates
  `api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}`
 
 Example of API call:
  
- `api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=42eefeac48ad56baa90e8b70275648fb`
+ `api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=<your-openweathermap-api-key>`
 
 ### Weather by Zip code:
 
@@ -120,7 +120,7 @@ Example of API call:
 
  Example of API call:
  
- `api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=42eefeac48ad56baa90e8b70275648fb`
+ `api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=<your-openweathermap-api-key>`
 
 
 
