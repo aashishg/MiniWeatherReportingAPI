@@ -4,7 +4,7 @@
   "description": "This package contains code for fetching JSON of weather of a certain city from openweathermap.com API using Axios NPM package, converting JSON from openweathermap to HTML template using handlebars NPM packages and finally saving the converted HTML to the local machine using FS NPM package",
   "main": "app.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fs": "0.0.1-security",
     "handlebars": "^4.7.7"
   },
